@@ -45,7 +45,7 @@ function App() {
  
  return (
     <div className='container'>
-      <h1 className='title'>TO DO App</h1>
+      <h2 className='title'>TO DO App</h2>
       <div className='textSave'>
         <input className='textArea' type='text' placeholder='Enter the task here' value={text} onChange={addText}/>
         <button className='saveButton' onClick={addDataToTable}>Add</button>
@@ -54,7 +54,7 @@ function App() {
         <thead>
           { isClicked &&
           <tr className='tableHeadRow'>
-              <th id='one'>Serial no.</th>
+              <th id='one'>S.no</th>
               <th id='two'>Todo Item</th>
               <th id='three'>Status</th>
               <th id='four'>Actions</th>
